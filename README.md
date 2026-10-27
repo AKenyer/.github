@@ -10,7 +10,8 @@ Az AKenyer szervezet közös beállításai.
 | `pull_request_template.md` | Pull request sablon. |
 | `.github/ISSUE_TEMPLATE/` | Hibabejelentő és funkciókérő űrlap. |
 | `CODEOWNERS` | Ennek a repónak a felelősei. |
+| `LICENSE` | Zárt forráskód, minden jog fenntartva. |
 
-A `profile/README.md` és a `CODEOWNERS` kivételével ezek alapértelmezett fájlok: a GitHub minden olyan repóban ezeket használja, amelynek nincs saját példánya. Ha egy repónak egyedi szabály kell, tegye a saját fájlját a gyökerébe vagy a `.github/` mappájába.
+A `profile/README.md`, a `CODEOWNERS` és a `LICENSE` kivételével ezek alapértelmezett fájlok: a GitHub minden olyan repóban ezeket használja, amelynek nincs saját példánya. Ha egy repónak egyedi szabály kell, tegye a saját fájlját a gyökerébe vagy a `.github/` mappájába.
 
 A repó nyilvános, mert a GitHub csak nyilvános `.github` repóból veszi az alapértelmezett fájlokat. Ezért ne kerüljön bele belső információ: szervernév, IP-cím, titok.
