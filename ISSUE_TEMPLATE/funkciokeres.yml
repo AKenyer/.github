@@ -1,0 +1,22 @@
+name: Funkciókérés
+description: Új funkció vagy egy meglévő továbbfejlesztése.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Milyen problémát oldana meg?
+      description: Mi nehézkes vagy hiányzik most a munkában?
+    validations:
+      required: true
+  - type: textarea
+    id: javaslat
+    attributes:
+      label: Mit javasolsz?
+      description: Hogyan működjön, ki használná, mi legyen az eredménye?
+    validations:
+      required: true
+  - type: textarea
+    id: alternativak
+    attributes:
+      label: Milyen más megoldás jöhet szóba?

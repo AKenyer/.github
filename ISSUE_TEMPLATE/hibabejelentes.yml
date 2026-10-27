@@ -1,0 +1,40 @@
+name: Hibabejelentés
+description: Valami nem úgy működik, ahogy kellene.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Biztonsági hibát ne itt jelezz, hanem [privát bejelentésként](https://github.com/AKenyer/.github/security/advisories/new).
+  - type: textarea
+    id: leiras
+    attributes:
+      label: Mi történt?
+      description: Írd le, mit tapasztaltál.
+    validations:
+      required: true
+  - type: textarea
+    id: lepesek
+    attributes:
+      label: Hogyan lehet előidézni?
+      placeholder: |
+        1. Nyisd meg a …
+        2. Kattints a …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: elvart
+    attributes:
+      label: Mit vártál volna?
+    validations:
+      required: true
+  - type: input
+    id: kornyezet
+    attributes:
+      label: Verzió és környezet
+      description: A láblécben látható verzió, éles vagy fejlesztői oldal, böngésző, eszköz.
+  - type: textarea
+    id: melleklet
+    attributes:
+      label: Hibaüzenet, napló, képernyőkép
+      description: Jelszót, tokent vagy személyes adatot ne másolj be.

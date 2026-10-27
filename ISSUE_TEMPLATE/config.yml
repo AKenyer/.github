@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Biztonsági hiba bejelentése
+    url: https://github.com/AKenyer/.github/security/advisories/new
+    about: Sérülékenységet privátban jelezz, ne nyilvános issue-ban.
